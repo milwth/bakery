@@ -1,0 +1,666 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-weight: 100;
+}
+
+
+
+body {
+
+    color: rgb(97, 97, 97);
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-color: #FDFBF7;
+
+
+}
+
+
+header {
+    font-family: Poppins;
+    background-color: rgb(128, 28, 28);
+    padding: 2vh;
+    margin: 0;
+    position: fixed;
+    z-index: 9999999999999999;
+    top: 0;
+    width: 100%;
+
+}
+
+main{
+    padding-top: 70px;
+}
+
+ul{
+    margin-bottom: 0;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #FDFBF7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(128, 28, 28);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(128, 28, 28);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+nav a:hover {
+
+    color: rgb(212, 68, 68);
+    transition: 1s;
+
+}
+
+.selected{
+
+    color:rgb(212, 68, 68);
+}
+
+.botao-header {
+
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    color: rgb(212, 68, 68);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+
+}
+
+.botao-header:hover {
+
+    background-color: rgb(212, 68, 68);
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    transform: scale(1.1);
+
+}
+
+.titulo-site {
+
+    font-family: DM Serif Display;
+    font-size: 80px;
+    color: rgb(190, 68, 68);
+}
+
+.titulo-2 {
+
+    color: rgb(128, 28, 28);
+    font-size: 35px;
+
+}
+
+.paragrafo1 {
+
+    text-align: left;
+    width: 30%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: rgb(97, 97, 97);
+    font-size: 20px;
+}
+
+.primeira-parte {
+
+    padding: 80px;
+    padding-bottom: 450px;
+    padding-top: 300px;
+    background-image: url("donuts-with-white-chocolate-cream-sprinkles-sugar.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+
+
+.botao-faça-seu-pedido {
+
+
+    height: 45px;
+    width: 15%;
+    padding: 90px, 90px;
+    background-color: rgb(128, 28, 28);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+
+}
+
+.botao-faça-seu-pedido:hover {
+
+    background-color: rgb(212, 68, 68);
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+    transition: 1s;
+
+}
+
+.botao-veja-o-cardapio {
+
+    height: 45px;
+    width: 22%;
+    padding: 70px, 70px;
+    background-color: rgb(128, 28, 28);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+
+
+}
+
+.botao-veja-o-cardapio:hover {
+
+    background-color: rgb(212, 68, 68);
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+    transition: 1s;
+
+}
+
+
+.segunda-parte {
+
+    padding: 80px;
+    display: flex;
+    align-items: center;
+
+}
+
+.txt1 {
+
+    font-size: 40px;
+    color: rgb(190, 68, 68);
+    margin-bottom: 10px;
+    font-family: DM Serif Display;
+
+
+}
+
+
+.txt2 {
+
+    margin-top: 10px;
+    width: 40%;
+}
+
+.img-bolo {
+
+    width: 900px;
+
+    box-shadow: 2px 2px 5px rgba(49, 49, 49, 0.5);
+    z-index: 99;
+    position: relative;
+
+}
+
+.img-bolo-class {
+
+
+    position: relative;
+
+}
+
+.texto-bolo {
+
+    position: absolute;
+    top: 180px;
+    left: -300px;
+    right: 80px;
+    background-color: rgb(128, 28, 28);
+    width: 500px;
+    height: 250px;
+    text-align: left;
+    color: white;
+    z-index: 99;
+
+}
+
+.texto-bolo:hover {
+
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 1s;
+}
+
+.texto-quadrado1 {
+
+    font-family: DM Serif Display;
+    font-size: 40px;
+    margin: 30px;
+}
+
+.texto-quadrado2 {
+
+    margin: 30px;
+    margin-top: -20px;
+}
+
+
+.frase-ao-fundo {
+
+    font-family: DM Serif Display;
+    z-index: -9;
+    position: relative;
+    width: 100%;
+    align-items: left;
+
+}
+
+.frase {
+
+    font-family: DM Serif Display;
+    color: rgba(107, 106, 106, 0.068);
+    position: absolute;
+    left: -850px;
+    top: 500px;
+    z-index: 8;
+    font-size: 70px;
+
+}
+
+hr {
+
+    margin: 0 auto;
+    width: 100%;
+    border-color: rgba(107, 106, 106, 0.068);
+
+}
+
+
+
+.infos {
+
+    font-size: 20px;
+    margin-top: 20px;
+
+
+}
+
+.nome {
+
+    font-family: dm serif display;
+   
+    color: rgb(190, 68, 68);
+
+}
+
+.nome-loja {
+
+    border-right: 2px solid rgba(255, 0, 0, 0.912);
+   
+}
+
+.funcionamento {
+
+    font-family: poppins;
+    text-align: center;
+   
+   
+  
+}
+
+
+
+
+.infos {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 10px 10px;
+    list-style: none;
+ 
+
+}
+
+.infos li{
+
+    display: flex;
+    justify-content: center;
+    border-right: 2px solid rgba(107, 106, 106, 0.068);
+    width: 100%;
+    align-items: center;
+
+}
+
+.botao-de-contato {
+
+    height: 45px 45px;
+    width: 35%;
+    padding: 15px 10px;
+    background-color: rgb(128, 28, 28);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    border: none;
+
+
+
+}
+
+.botao-de-contato:hover {
+
+    background-color: rgb(212, 68, 68);
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+    transition: 1s;
+
+}
+
+footer {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: rgb(128, 28, 28);
+    color: white;
+    padding: 20px;
+    align-items: center;
+    cursor: pointer;
+
+
+
+}
+
+.itens-footer {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 40vw;
+}
+
+
+
+.itens-footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+
+}
+
+
+.itens-footer p:hover {
+
+    color: rgb(212, 68, 68);
+    transition: 1s;
+
+}
+
+
+.redes {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10%;
+    height: 100%;
+    cursor: pointer;
+
+}
+
+.redes i {
+
+    margin: 0px;
+}
+
+.icon-footer {
+
+    font-size: 35px;
+
+}
+
+.icon-footer:hover {
+
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+
+/* SOBRE NOS<---------------------- */
+
+.img-sobrenos {
+
+    width: 900px;
+    box-shadow: 2px 2px 5px rgba(49, 49, 49, 0.5);
+    z-index: 99;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 40px;
+
+
+}
+
+.img-sobrenos{
+
+
+    position: relative;
+
+}
+
+
+.sobre-nos1{
+
+    display: flex;
+    align-items: center;
+}
+
+.sobrenos{
+
+    align-items: right;
+    
+    margin-left: 200px;
+    width: 30%;
+    background-color: rgb(128, 28, 28);
+    height: fit-content;
+    color: white;
+    padding: 30px;
+    
+}
+
+.sobrenos:hover{
+
+        transform: scale(1.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        transition: 1s;
+    
+    }
+
+.titulo1{
+
+
+    font-family: DM Serif Display;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+.sobrenoshr{
+
+    margin-top: 50px;
+    width: 50%;
+
+}
+
+
+.sobre-nos2{
+
+    display: flex;
+    align-items: center;
+}
+
+.mapa-sobrenos {
+
+    width: 900px;
+    box-shadow: 2px 2px 5px rgba(49, 49, 49, 0.5);
+    z-index: 99;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-bottom: 40px;
+
+
+}
+
+/* CARDÁPIO */
+
+
+
+.titulos-cardapio{
+
+    font-family: DM Serif Display;
+    font-size: 40px;
+    margin-top: 20px;
+    color:rgb(128, 28, 28);
+    margin-bottom: 20px;
+
+}
+
+.carousel-item img{
+
+        object-fit: cover;
+       
+        
+}
+
+.slide{
+
+    width: 50%;
+    box-shadow: 2px 2px 5px rgba(49, 49, 49, 0.5);
+}
+
+.caixinhas-cardapio{
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+
+}
+
+.comidas{
+
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.opcoes-de-comida{
+
+    align-items: center;
+    width: 20%;
+    background-color: rgb(128, 28, 28);
+    height: fit-content;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 150px;
+    
+}
+
+.opcoes-de-comida:hover{
+
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 1s;
+
+}
+
+.opcoes-de-comida ul{
+
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+.sabores-bolos{
+
+    font-family: DM Serif Display;
+    font-size: 50px;
+    padding: 0;
+    
+
+}
+
+
+.cardapio-hr{
+
+    background-color: rgb(193, 193, 193);
+}
+
+.cardapio-hr2{
+
+    background-color: rgb(190, 190, 190);
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+
+  
+
+
+
+
+
